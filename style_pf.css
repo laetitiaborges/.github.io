@@ -1,0 +1,93 @@
+body, html {
+	
+	height: 100%;
+ 	margin: 0;
+}
+
+.bg {
+	/*--background-color: rgb(32, 178, 170);--*/
+	/* The image used */
+	background-image: url("images/bg01.jpg");
+	/* Full height*/
+	height: 100%;
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+
+/* left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  color : #00FFFF;
+  /*color: rgb(0,255,255);*/
+  font-family: Tahoma;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+/* Right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  color: rgb(0,255,255);
+  font-family: Tahoma;
+  font-size: 20px;
+  margin-right: 10px;
+  }
+
+.row-deux {
+  position: absolute;
+  top: 35px;
+  right: 30px;
+  color: white;
+  font-family: Tahoma;
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+  /* Centered text */
+.centered {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  font-family: Tahoma;
+  color: rgb(0,255,255);
+  text-align: center;
+}
+.centered-2 {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  font-family: Tahoma;
+  color: rgb(0,255,255);
+  text-align: center;
+}
+
+.fa-lkdin {
+	position: absolute;
+  top: 50px;
+  left: 50px;
+  transform: translate(-50%, -50%);
+	color: white;
+}
+
+
+.fa-github {
+	position: absolute;
+  top: 50px;
+  left: 100px;
+  transform: translate(-50%, -50%);
+	color: white;
+	
+}
+
